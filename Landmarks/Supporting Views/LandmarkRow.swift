@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct LandmarkRow: View {
+    
     var landmark: Landmark
     
     var body: some View {
@@ -22,6 +23,7 @@ struct LandmarkRow: View {
 }
 
 struct LandmarkRow_Previews: PreviewProvider {
+    
     static var previews: some View {
         Group {
             LandmarkRow(landmark: landmarkData[0])

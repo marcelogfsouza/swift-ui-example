@@ -31,6 +31,7 @@
 		ED67035B254725E600F76C7F /* chincoteague.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ED67034F254725E600F76C7F /* chincoteague.jpg */; };
 		ED67035C254725E600F76C7F /* turtlerock.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ED670350254725E600F76C7F /* turtlerock.jpg */; };
 		ED67035D254725E600F76C7F /* yukon_charleyrivers.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ED670351254725E600F76C7F /* yukon_charleyrivers.jpg */; };
+		ED67036E2547388100F76C7F /* LandmarkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED67036D2547388100F76C7F /* LandmarkList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -81,6 +82,7 @@
 		ED67034F254725E600F76C7F /* chincoteague.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = chincoteague.jpg; sourceTree = "<group>"; };
 		ED670350254725E600F76C7F /* turtlerock.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = turtlerock.jpg; sourceTree = "<group>"; };
 		ED670351254725E600F76C7F /* yukon_charleyrivers.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = yukon_charleyrivers.jpg; sourceTree = "<group>"; };
+		ED67036D2547388100F76C7F /* LandmarkList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,8 +137,8 @@
 				ED028EB92547204E002951A2 /* Models */,
 				ED028EB025472031002951A2 /* Resources */,
 				ED028E4625471009002951A2 /* LandmarksApp.swift */,
+				ED67036D2547388100F76C7F /* LandmarkList.swift */,
 				ED028E4825471009002951A2 /* LandmarkDetail.swift */,
-				ED028E9D25471F31002951A2 /* LandmarkRow.swift */,
 				ED028E4A2547100C002951A2 /* Assets.xcassets */,
 				ED028E4F2547100C002951A2 /* Info.plist */,
 				ED028E4C2547100C002951A2 /* Preview Content */,
@@ -173,6 +175,7 @@
 		ED028EA525471FB3002951A2 /* Supporting Views */ = {
 			isa = PBXGroup;
 			children = (
+				ED028E9D25471F31002951A2 /* LandmarkRow.swift */,
 				ED028EA625471FB3002951A2 /* MapView.swift */,
 				ED028EA725471FB3002951A2 /* CircleImage.swift */,
 			);
@@ -353,6 +356,7 @@
 				ED028EBD2547204E002951A2 /* Landmark.swift in Sources */,
 				ED028E4925471009002951A2 /* LandmarkDetail.swift in Sources */,
 				ED028EBC2547204E002951A2 /* Data.swift in Sources */,
+				ED67036E2547388100F76C7F /* LandmarkList.swift in Sources */,
 				ED028E9E25471F31002951A2 /* LandmarkRow.swift in Sources */,
 				ED028EA825471FB3002951A2 /* MapView.swift in Sources */,
 				ED028E4725471009002951A2 /* LandmarksApp.swift in Sources */,
