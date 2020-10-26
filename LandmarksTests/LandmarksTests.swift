@@ -2,7 +2,7 @@
 //  LandmarksTests.swift
 //  LandmarksTests
 //
-//  Created by SOUZA, Marcelo (MTL) on 2020-10-26.
+//  Created by Marcelo de Souza on 2020-10-26.
 //
 
 import XCTest
