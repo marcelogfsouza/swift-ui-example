@@ -2,7 +2,7 @@
 //  Landmark.swift
 //  Landmarks
 //
-//  Created by SOUZA, Marcelo (MTL) on 2020-10-26.
+//  Created by Marcelo de Souza on 2020-10-26.
 //
 
 import SwiftUI
@@ -17,6 +17,7 @@ struct Landmark: Hashable, Codable, Identifiable {
     var state: String
     var park: String
     var category: Category
+    var isFavorite: Bool
 
     var locationCoordinate: CLLocationCoordinate2D {
         CLLocationCoordinate2D(
@@ -28,6 +29,7 @@ struct Landmark: Hashable, Codable, Identifiable {
         case featured = "Featured"
         case lakes = "Lakes"
         case rivers = "Rivers"
+        case mountains = "Mountains"
     }
 }
 

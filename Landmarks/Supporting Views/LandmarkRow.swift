@@ -2,7 +2,7 @@
 //  LandmarkRow.swift
 //  Landmarks
 //
-//  Created by SOUZA, Marcelo (MTL) on 2020-10-26.
+//  Created by Marcelo de Souza on 2020-10-26.
 //
 
 import SwiftUI
@@ -18,6 +18,12 @@ struct LandmarkRow: View {
                 .frame(width: 50, height: 50)
             Text(landmark.name)
             Spacer()
+            
+            if landmark.isFavorite {
+                Image(systemName: "star.fill")
+                    .imageScale(.medium)
+                    .foregroundColor(.yellow)
+            }
         }
     }
 }
@@ -26,8 +32,9 @@ struct LandmarkRow_Previews: PreviewProvider {
     
     static var previews: some View {
         Group {
-            LandmarkRow(landmark: landmarkData[0])
-            LandmarkRow(landmark: landmarkData[1])
+            ForEach(landmarkData) { landmark in
+                LandmarkRow(landmark: landmark)
+            }
         }
         .previewLayout(.fixed(width: 300, height: 70))
     }
